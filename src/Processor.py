@@ -4,10 +4,11 @@ import glob
 from srtranslator import SrtFile
 from src.CustomTranslators.SRTGoogleTranslator import GoogleTranslator
 
-class Processor():
+class TranslateProccessor():
     def __init__(self, translator, folder):
         self.translator = translator
         self.folder = folder
+
     def DeleteExistingKoSrtFiles(self):
         for filepath in glob.glob(os.path.join(self.folder, "**/*_ko.srt"), recursive=True):
             os.remove(filepath)
@@ -20,10 +21,9 @@ class Processor():
                 # translator = DeeplTranslator()
                 # translator = GoogleTranslator("credential.json", "sigma-crawler-409122")
 
-                ko_filepath = f"{os.path.splitext(filepath)[0]}_ko.srt"
-                if os.path.exists(ko_filepath):
-                    os.remove(ko_filepath)
 
+
+                print(f"Translating {filepath}")
                 srt = SrtFile(filepath)
                 srt.translate(self.translator, "en", "ko")
                 srt.wrap_lines()
