@@ -15,7 +15,8 @@ DevTools listening on ws://127.0.0.1:14906/devtools/browser/254d9023-0cee-46d3-9
 1704186446057	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
 console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
-1704189483753	geckodriver	INFO	Listening on 127.0.0.1:1161
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:1161
 1704189484246	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1162" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\shlif\\AppData\\Local\\Temp\\rust_mozprofilebNe1BK"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
@@ -32,7 +33,8 @@ DevTools listening on ws://127.0.0.1:1162/devtools/browser/427a360f-6e0d-4837-80
 1704189515123	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
 console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
-1704189561721	geckodriver	INFO	Listening on 127.0.0.1:2184
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:2184
 1704189562223	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2185" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\shlif\\AppData\\Local\\Temp\\rust_mozprofile5cLoOv"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
@@ -49,8 +51,8 @@ DevTools listening on ws://127.0.0.1:2185/devtools/browser/de05580e-d7fb-4a3e-9c
 1704189593042	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
 console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
-1 in the environment
-1704189581772	Marionette	INFO	Marionette enabled
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Marionette enabled
 Dynamically enable window occlusion 0
 1704189581827	Marionette	INFO	Listening on port 2503
 WebDriver BiDi listening on ws://127.0.0.1:2472
@@ -61,3 +63,41 @@ console.error: ({})
 DevTools listening on ws://127.0.0.1:2472/devtools/browser/f5907512-95c3-449f-80c8-2ea2b92f6309
 Exiting due to channel error.
 Exiting due to channel error.
+1704203998188	geckodriver	INFO	Listening on 127.0.0.1:6097
+1704203998688	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6098" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\shlif\\AppData\\Local\\Temp\\rust_mozprofileds3UaN"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704203999002	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704203999052	Marionette	INFO	Listening on port 6139
+WebDriver BiDi listening on ws://127.0.0.1:6098
+Read port: 6139
+1704203999178	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:6098/devtools/browser/e2d82c56-a101-43fe-878a-58e6aa37598d
+1704204029402	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+FO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7325" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\shlif\\AppData\\Local\\Temp\\rust_mozprofileUFRJYB"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704205040970	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704205041025	Marionette	INFO	Listening on port 7361
+WebDriver BiDi listening on ws://127.0.0.1:7325
+Read port: 7361
+1704205041168	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:7325/devtools/browser/8284a7e7-bb4f-4ab0-9982-dbe7865845dc
+1704205071097	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1704205103141	Marionette	INFO	Stopped listening on port 7361
+Dynamically enable window occlusion 1

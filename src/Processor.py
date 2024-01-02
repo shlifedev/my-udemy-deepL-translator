@@ -1,8 +1,7 @@
 import os
 import glob
 
-from srtranslator import SrtFile
-from src.CustomTranslators.SRTGoogleTranslator import GoogleTranslator
+from srtranslator import SrtFile 
 
 class TranslateProccessor():
     def __init__(self, translator, folder):

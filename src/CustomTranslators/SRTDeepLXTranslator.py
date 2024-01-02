@@ -1,5 +1,5 @@
 
-import requests
+import requests 
 import json
 from srtranslator.translators.base import Translator
 class DeepLXTranslator(Translator):
@@ -32,3 +32,5 @@ class DeepLXTranslator(Translator):
             print("오류발생")
             print(e)
             return ""
+        
+ 

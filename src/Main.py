@@ -1,8 +1,12 @@
 from Processor import TranslateProccessor
-from srtranslator.translators.deepl_scrap import DeeplTranslator
-from srtranslator.translators.deepl_api import DeeplApi
+# from srtranslator.translators.deepl_scrap import DeeplTranslator
+# from srtranslator.translators.deepl_api import DeeplApi
 from CustomTranslators.SRTDeepLXTranslator import DeepLXTranslator
-deepLx = DeepLXTranslator("34.125.92.47", "1188")
-processor = TranslateProccessor(deepLx, r"H:\Tera\udemy\Shader Development from Scratch for Unity with Cg\01 Introduction")
+from CustomTranslators.SRTDeepLXTranslator2 import DeepLXTranslator2
+print('dd')
+model = DeepLXTranslator2("http://dugtaybf.cloud.sealos.io/translate")
+
+#model = DeeplTranslator()
+processor = TranslateProccessor(model, r"H:\Tera\Sync\Udemy Hub\Ultimate Unity Overview (70+ Tools and Features Explained!)")
 processor.Translate()
-Error
+
