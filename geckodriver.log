@@ -1,0 +1,75 @@
+1704204194931	geckodriver	INFO	Listening on 127.0.0.1:8767
+1704204195431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8768" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\shlif\\AppData\\Local\\Temp\\rust_mozprofile4rxoLh"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704204195693	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704204195742	Marionette	INFO	Listening on port 8774
+WebDriver BiDi listening on ws://127.0.0.1:8768
+Read port: 8774
+1704204195849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:8768/devtools/browser/654ee7f0-2117-4527-ad0d-70fb7253b3d1
+1704204225715	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11289" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\shlif\\AppData\\Local\\Temp\\rust_mozprofilefYeV2q"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704206412533	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704206412581	Marionette	INFO	Listening on port 11296
+WebDriver BiDi listening on ws://127.0.0.1:11289
+Read port: 11296
+1704206412696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:11289/devtools/browser/826c4c6f-e8e3-4aeb-ae80-7e4aae1c49e9
+1704206442637	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1704206520904	Marionette	INFO	Stopped listening on port 11296
+Dynamically enable window occlusion 1
+clusion 0
+1704206434009	Marionette	INFO	Listening on port 11406
+WebDriver BiDi listening on ws://127.0.0.1:11399
+Read port: 11406
+1704206434116	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:11399/devtools/browser/85ec16ab-8d3c-46a0-a785-695aed77b48f
+1704206464222	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1704206520904	Marionette	INFO	Stopped listening on port 11406
+Dynamically enable window occlusion 1
+1704206655550	geckodriver	INFO	Listening on 127.0.0.1:11975
+1704206656046	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11976" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\shlif\\AppData\\Local\\Temp\\rust_mozprofilega7GWz"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704206656320	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704206656370	Marionette	INFO	Listening on port 11983
+WebDriver BiDi listening on ws://127.0.0.1:11976
+Read port: 11983
+1704206656489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:11976/devtools/browser/f8cabf7f-e90c-486b-90d1-96f1d3dd07a3
+1704206686750	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1704281927769	geckodriver	INFO	Listening on 127.0.0.1:10007
+1704281936560	geckodriver	INFO	Listening on 127.0.0.1:10026
+1704288212022	geckodriver	INFO	Listening on 127.0.0.1:14925
+1704288213926	geckodriver	INFO	Listening on 127.0.0.1:14936
