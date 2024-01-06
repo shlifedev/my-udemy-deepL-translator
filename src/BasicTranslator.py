@@ -1,41 +1,9 @@
 import os
-import glob
-from pathlib import Path
-
+import glob 
 from srtranslator import SrtFile 
+from BaseTranslator import BaseTranslator
 
-class TranslateProccessor():
-    def __init__(self, translator, folder):
-        self.translator = translator
-        self.folder = folder
-
-    # def DeleteExistingKoSrtFiles(self):
-    #     for filepath in glob.glob(os.path.join(self.folder, "**/*_ko.srt"), recursive=True):
-    #         os.remove(filepath)
-
-
-    def clean_up_files(self):
-        for filepath in glob.glob(os.path.join(self.folder, "*_ko.srt")):
-            basename = os.path.basename(filepath).rsplit(".", 1)[0]  # Get filename without extension
-            counts = basename.count("_ko")
-            if counts > 1:
-                os.remove(filepath)
-                print(f'Removed incorrect file "{filepath}"')
-
-
-    def CountAlreadyTranslated(self):
-        count = 0
-        for filepath in glob.glob(os.path.join(self.folder, "**/*.srt"), recursive=True):
-            if '_ko' in os.path.splitext(os.path.basename(filepath))[0]:
-                count = count + 1
-        return count
-
-
-    def SRTCount(self):
-        filepaths = [f for f in glob.glob(os.path.join(self.folder, "**/*.srt"), recursive=True) if
-                     '_ko' not in os.path.basename(f)]
-        return len(filepaths)
-
+class TranslateProccessor(BaseTranslator):
     def Translate(self):
 
         filepaths = [f for f in glob.glob(os.path.join(self.folder, "**/*.srt"), recursive=True) if
