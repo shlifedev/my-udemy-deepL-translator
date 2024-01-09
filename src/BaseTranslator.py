@@ -1,5 +1,7 @@
 import os
-import glob 
+import glob
+from pathlib import Path 
+from srtranslator import SrtFile 
 
 class BaseTranslator():
     

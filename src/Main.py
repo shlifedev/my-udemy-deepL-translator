@@ -12,17 +12,17 @@ import time
  
 #file_path = input('Enter a file path: ')
 
-file_paths = [rf"Z:\home\Sync\Udemy Hub\Mathematics for Computer Games Development using Unity", rf"Z:\home\Sync\Udemy Hub\Ultimate Unity Overview (70+ Tools and Features Explained!)", rf"Z:\home\Sync\Udemy Hub\Complete Blender Creator Learn 3D Modelling for Beginners"]
-file_path = rf"Z:\home\Sync\Udemy Hub\Modern Unity UI with UI Toolkit\Modern Unity UI with UI Toolkit"  
+file_paths = [rf"Z:\Udemy Hub\Game Hacking Cheat Engine Game Hacking Basics"]
+ 
 def createDriver(): 
     options = Options()
     options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe' 
-    driver = webdriver.Chrome(executable_path=r"C:\Program Files\Mozilla Firefox\geckodriver.exe", options=options) 
+    driver = webdriver.Chrome(executable_path=r"../geckodriver.exe", options=options) 
     return driver
 
 def run():  
     model = DeeplTranslator(createDriver()) 
-    processor = TranslateProccessor(model, rf"{file_path}")
+    processor = TranslateProccessor(model, rf"{file_paths[0]}")
     srtCouunt = processor.SRTCount()
     translated = processor.CountAlreadyTranslated()
     
@@ -42,6 +42,19 @@ def run_single(filePath):
 
  
     
+def run_api(filePath, api):  
+    model = DeeplApi(api) 
+    processor = TranslateProccessor(model, rf"{filePath}")
+    srtCouunt = processor.SRTCount()
+    translated = processor.CountAlreadyTranslated()
+    
+    if(srtCouunt != translated):
+        processor.Translate() 
+
+# run_api(rf"Z:\home\Sync\Udemy Hub\Complete Blender Creator Learn 3D Modelling for Beginners")
+
+
+ 
 for path in file_paths:
     try:
         run_single(path)
