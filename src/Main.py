@@ -20,28 +20,18 @@ def createDriver():
     options = Options() 
     options.headless = True
     driver = webdriver.Chrome(service= Service(ChromeDriverManager().install()), options=options)
-    return driver 
+    return driver  
 
 
-def run():  
+def run(filePath):
     model = DeeplTranslator(createDriver()) 
-    processor = TranslateProccessor(model, rf"{file_paths[0]}")
-    srtCouunt = processor.getSrtFileCount()
-    translated = processor.getTranslatedCount()
-    
-    if(srtCouunt != translated):
-        processor.translate() 
-
-
-def run_single(filePath):
-    model = DeeplTranslator(createDriverByMac()) 
     processor = FreeTranslator(model, rf"{filePath}")
     srtCouunt = processor.getSrtFileCount()
     translated = processor.getTranslatedCount()
     
     if(srtCouunt != translated):
         processor.translate()
-        run_single(path)
+        run(path)
 
  
     
@@ -60,10 +50,10 @@ def run_api(filePath, api):
  
 for path in file_paths:
     try:
-        run_single(path)
+        run(path)
     except:
         time.sleep(5)
-        run_single(path)
+        run(path)
         
         
         

@@ -1,0 +1,287 @@
+1706182826130	geckodriver	INFO	Listening on 127.0.0.1:56825
+1706182826626	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofileXc61bo"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706182827174	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706182827589	Marionette	INFO	Listening on port 56834
+WebDriver BiDi listening on ws://127.0.0.1:56826
+1706182827702	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:56826/devtools/browser/337b946b-8de1-4f07-8b94-721c2c00e853
+1706182857324	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706183083788	Marionette	INFO	Stopped listening on port 56834
+1706183432592	geckodriver	INFO	Listening on 127.0.0.1:57293
+1706183433091	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofiletT8iql"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706183433626	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706183434039	Marionette	INFO	Listening on port 57301
+WebDriver BiDi listening on ws://127.0.0.1:57294
+1706183434170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:57294/devtools/browser/c1354b80-619b-4e6a-aa43-ddffaab95be6
+1706183463743	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706183759693	Marionette	INFO	Stopped listening on port 57301
+1706184363809	geckodriver	INFO	Listening on 127.0.0.1:58935
+1706184364310	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofileTgc2oD"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706184364786	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706184365226	Marionette	INFO	Listening on port 58944
+WebDriver BiDi listening on ws://127.0.0.1:58936
+1706184365329	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:58936/devtools/browser/677309ac-da66-4782-b7f7-55531f1aa0ed
+1706184394950	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706184676197	Marionette	INFO	Stopped listening on port 58944
+1706185038908	geckodriver	INFO	Listening on 127.0.0.1:60582
+1706185039400	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofilettSNNI"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706185039936	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706185040345	Marionette	INFO	Listening on port 60592
+WebDriver BiDi listening on ws://127.0.0.1:60583
+1706185040458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:60583/devtools/browser/a363ba38-5c26-4625-a75d-616653611c42
+1706185070148	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706185355674	Marionette	INFO	Stopped listening on port 60592
+JavaScript warning: https://static.deepl.com/gatsby/framework.bdb4168175eee126c043.js, line 22: Script terminated by timeout at:
+73323/w.port1.onmessage@https://static.deepl.com/gatsby/framework.bdb4168175eee126c043.js:22:7450
+
+1706185708485	geckodriver	INFO	Listening on 127.0.0.1:62215
+1706185708985	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofilehv5YFN"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706185709539	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706185709956	Marionette	INFO	Listening on port 62226
+WebDriver BiDi listening on ws://127.0.0.1:62216
+1706185710072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:62216/devtools/browser/0016ad36-5244-4c1b-917b-c6596f40aa31
+1706185739674	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706186225223	Marionette	INFO	Stopped listening on port 62226
+1706186791711	geckodriver	INFO	Listening on 127.0.0.1:64688
+1706186792214	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofilePiALhZ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706186792743	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706186793154	Marionette	INFO	Listening on port 64698
+WebDriver BiDi listening on ws://127.0.0.1:64689
+1706186793349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:64689/devtools/browser/70c5993f-bda1-4be6-992f-3b48b5afe380
+1706186822763	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706186862486	Marionette	INFO	Stopped listening on port 64698
+1706187823270	geckodriver	INFO	Listening on 127.0.0.1:50642
+1706187823755	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofileKpu5hf"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706187824297	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706187824710	Marionette	INFO	Listening on port 50654
+WebDriver BiDi listening on ws://127.0.0.1:50643
+1706187824822	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:50643/devtools/browser/dd2f0a96-4731-4ae2-a1f4-309a16dab3da
+1706187854329	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706188247578	Marionette	INFO	Stopped listening on port 50654
+1706188636932	geckodriver	INFO	Listening on 127.0.0.1:52492
+1706188637432	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofileK6YH5Y"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706188637968	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706188638387	Marionette	INFO	Listening on port 52502
+WebDriver BiDi listening on ws://127.0.0.1:52493
+1706188638510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:52493/devtools/browser/0794f6da-d9ad-40d2-aabd-7146cd6c844c
+1706188668219	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706188982427	Marionette	INFO	Stopped listening on port 52502
+1706189563873	geckodriver	INFO	Listening on 127.0.0.1:53128
+1706189564376	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofileU1QPuP"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706189564924	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706189565341	Marionette	INFO	Listening on port 53137
+WebDriver BiDi listening on ws://127.0.0.1:53129
+1706189565451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:53129/devtools/browser/5773bd84-067e-4788-aac1-e9d6cb6c108b
+1706189595124	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706189747200	Marionette	INFO	Stopped listening on port 53137
+1706193598762	geckodriver	INFO	Listening on 127.0.0.1:59299
+1706193599256	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofileEcyojj"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706193599801	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706193600227	Marionette	INFO	Listening on port 59308
+WebDriver BiDi listening on ws://127.0.0.1:59300
+1706193600341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:59300/devtools/browser/6c111361-687c-4956-ae90-39491fbc9b36
+1706193629823	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706193747172	Marionette	INFO	Stopped listening on port 59308
+1706194111214	geckodriver	INFO	Listening on 127.0.0.1:59865
+1706194111707	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofileoft8Nj"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706194112266	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706194112681	Marionette	INFO	Listening on port 59873
+WebDriver BiDi listening on ws://127.0.0.1:59866
+1706194112794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:59866/devtools/browser/c4a86f9e-f261-4610-bb15-1c9c27a1b45f
+1706194142552	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706194243220	Marionette	INFO	Stopped listening on port 59873
+JavaScript warning: https://static.deepl.com/gatsby/framework.bdb4168175eee126c043.js, line 22: Script terminated by timeout at:
+M@https://static.deepl.com/gatsby/framework.bdb4168175eee126c043.js:22:8322
+D@https://static.deepl.com/gatsby/framework.bdb4168175eee126c043.js:22:8607
+73323/w.port1.onmessage@https://static.deepl.com/gatsby/framework.bdb4168175eee126c043.js:22:7494
+
+1706194715253	geckodriver	INFO	Listening on 127.0.0.1:60390
+1706194715753	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofile6ReqjQ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706194716225	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706194716652	Marionette	INFO	Listening on port 60398
+WebDriver BiDi listening on ws://127.0.0.1:60391
+1706194716785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:60391/devtools/browser/e57452f9-baf8-4cc9-81ad-ade49e2faa95
+1706194747785	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706194839238	Marionette	INFO	Stopped listening on port 60398
+1706194935152	geckodriver	INFO	Listening on 127.0.0.1:60684
+1706194935657	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofile7Y35by"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706194936104	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706194936519	Marionette	INFO	Listening on port 60692
+WebDriver BiDi listening on ws://127.0.0.1:60685
+1706194936610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:60685/devtools/browser/a33cb6e8-696f-4760-8d4c-22ec51af04e0
+1706194967099	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706195045625	Marionette	INFO	Stopped listening on port 60692
+1706195138832	geckodriver	INFO	Listening on 127.0.0.1:60817
+1706195139338	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofilenznbKK"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706195139782	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706195140202	Marionette	INFO	Listening on port 60825
+WebDriver BiDi listening on ws://127.0.0.1:60818
+1706195140291	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:60818/devtools/browser/146a712e-c40a-49eb-a1e4-c6cc98ff8a9e
+1706195172097	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706195248750	Marionette	INFO	Stopped listening on port 60825
+1706195343701	geckodriver	INFO	Listening on 127.0.0.1:60966
+1706195344200	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofiley2eFZ4"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706195344665	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706195345082	Marionette	INFO	Listening on port 60974
+WebDriver BiDi listening on ws://127.0.0.1:60967
+1706195345279	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:60967/devtools/browser/de77b6d5-a456-4eaa-a5de-97de1749a8fe
+1706195374679	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706195455638	Marionette	INFO	Stopped listening on port 60974
+1706195589385	geckodriver	INFO	Listening on 127.0.0.1:61198
+1706195589885	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofile4Ftinn"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706195590341	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706195590760	Marionette	INFO	Listening on port 61206
+WebDriver BiDi listening on ws://127.0.0.1:61199
+1706195590948	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:61199/devtools/browser/9958f441-4fec-47bb-b3f6-cb34919ef8ed
+1706195623812	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706195700098	Marionette	INFO	Stopped listening on port 61206
+1706195811097	geckodriver	INFO	Listening on 127.0.0.1:61453
+1706195811589	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofile5YIUSZ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706195812075	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706195812510	Marionette	INFO	Listening on port 61461
+WebDriver BiDi listening on ws://127.0.0.1:61454
+1706195812606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:61454/devtools/browser/13e5e69d-218f-458c-8287-fa8c4e77870a
+1706195843789	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706195922897	Marionette	INFO	Stopped listening on port 61461
+1706196032595	geckodriver	INFO	Listening on 127.0.0.1:61758
+1706196033086	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofileyKmun2"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706196033521	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706196033936	Marionette	INFO	Listening on port 61766
+WebDriver BiDi listening on ws://127.0.0.1:61759
+1706196034026	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:61759/devtools/browser/ecf7cf53-36e0-4473-bb6a-f55be765e5d6
+1706196065016	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706196142774	Marionette	INFO	Stopped listening on port 61766
+1706196777760	geckodriver	INFO	Listening on 127.0.0.1:62040
+1706196778255	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofileQkIKXk"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706196778718	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706196779145	Marionette	INFO	Listening on port 62048
+WebDriver BiDi listening on ws://127.0.0.1:62041
+1706196779343	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:62041/devtools/browser/a90b88fa-6298-4355-95ee-f12a7e05beba
+1706196808840	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706197172969	Marionette	INFO	Stopped listening on port 62048
+1706197684366	geckodriver	INFO	Listening on 127.0.0.1:62430
+1706197684857	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/vh/g5mq1r3951x57qnyc_g4dk4r0000gn/T/rust_mozprofileNdH9F0"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706197685309	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706197685739	Marionette	INFO	Listening on port 62438
+WebDriver BiDi listening on ws://127.0.0.1:62431
+1706197685929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:62431/devtools/browser/64cdf608-74c6-48d1-b32f-d873bfd550ec
+1706197715331	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
