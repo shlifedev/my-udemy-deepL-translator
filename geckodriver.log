@@ -4297,3 +4297,4 @@ WebDriver BiDi listening on ws://127.0.0.1:56305
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 DevTools listening on ws://127.0.0.1:56305/devtools/browser/6275775c-1b6e-4406-b97b-bbf00fe67e09
 1706182235296	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706182462518	Marionette	INFO	Stopped listening on port 56312

@@ -3,8 +3,7 @@ import glob
 from pathlib import Path 
 from srtranslator import SrtFile 
 
-class BaseTranslator():
-    
+class BaseTranslator(): 
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
     OKCYAN = '\033[96m'
@@ -13,34 +12,36 @@ class BaseTranslator():
     FAIL = '\033[91m'
     ENDC = '\033[0m'
     BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-    
-    
+    UNDERLINE = '\033[4m' 
     def __init__(self, translator, folder):
         self.translator = translator
         self.folder = folder
     
-    def clean_up_files(self):
+    def cleanUp(self):
         for filepath in glob.glob(os.path.join(self.folder, "*_ko.srt")):
             basename = os.path.basename(filepath).rsplit(".", 1)[0]  # Get filename without extension
             counts = basename.count("_ko")
             if counts > 1:
                 os.remove(filepath)
                 print(f'Removed incorrect file "{filepath}"')
-                
-    def CountAlreadyTranslated(self):
+    
+    # 번역 된 파일 개수 
+    def getTranslatedCount(self):
         count = 0
         for filepath in glob.glob(os.path.join(self.folder, "**/*.srt"), recursive=True):
             if '_ko' in os.path.splitext(os.path.basename(filepath))[0]:
                 count = count + 1
         return count
     
-    def SRTCount(self):
+    # srt 파일 개수
+    def getSrtFileCount(self):
         filepaths = [f for f in glob.glob(os.path.join(self.folder, "**/*.srt"), recursive=True) if
                      '_ko' not in os.path.basename(f)]
         return len(filepaths)
 
-    def Translate(self):
+
+
+    def translate(self):
         return None
 
 

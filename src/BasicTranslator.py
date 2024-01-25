@@ -4,7 +4,7 @@ from srtranslator import SrtFile
 from BaseTranslator import BaseTranslator
 
 class TranslateProccessor(BaseTranslator):
-    def Translate(self):
+    def translate(self):
 
         filepaths = [f for f in glob.glob(os.path.join(self.folder, "**/*.srt"), recursive=True) if
                      '_ko' not in os.path.basename(f)]
@@ -14,8 +14,8 @@ class TranslateProccessor(BaseTranslator):
             print(f"{filepath} 차례입니다.")
 
 
-            srtCouunt = self.SRTCount()
-            translated = self.CountAlreadyTranslated()
+            srtCouunt = self.getSrtFileCount()
+            translated = self.getTranslatedCount()
             print(f"남은 SRT 파일 갯수: {translated}/{srtCouunt}")
 
             # Skip if filename contains _ko

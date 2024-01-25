@@ -26,21 +26,21 @@ def createDriver():
 def run():  
     model = DeeplTranslator(createDriver()) 
     processor = TranslateProccessor(model, rf"{file_paths[0]}")
-    srtCouunt = processor.SRTCount()
-    translated = processor.CountAlreadyTranslated()
+    srtCouunt = processor.getSrtFileCount()
+    translated = processor.getTranslatedCount()
     
     if(srtCouunt != translated):
-        processor.Translate() 
+        processor.translate() 
 
 
 def run_single(filePath):
     model = DeeplTranslator(createDriverByMac()) 
     processor = FreeTranslator(model, rf"{filePath}")
-    srtCouunt = processor.SRTCount()
-    translated = processor.CountAlreadyTranslated()
+    srtCouunt = processor.getSrtFileCount()
+    translated = processor.getTranslatedCount()
     
     if(srtCouunt != translated):
-        processor.Translate()
+        processor.translate()
         run_single(path)
 
  
@@ -48,11 +48,11 @@ def run_single(filePath):
 def run_api(filePath, api):  
     model = DeeplApi(api) 
     processor = TranslateProccessor(model, rf"{filePath}")
-    srtCouunt = processor.SRTCount()
-    translated = processor.CountAlreadyTranslated()
+    srtCouunt = processor.getSrtFileCount()
+    translated = processor.getTranslatedCount()
     
     if(srtCouunt != translated):
-        processor.Translate() 
+        processor.translate() 
 
 # run_api(rf"Z:\home\Sync\Udemy Hub\Complete Blender Creator Learn 3D Modelling for Beginners")
 
